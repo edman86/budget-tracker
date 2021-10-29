@@ -4,9 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { Provider } from './context/context';
+
+import { SpeechProvider } from '@speechly/react-client'
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SpeechProvider appId="03a5d0b2-70a0-4e3f-b2cb-a0d2119ecd98" language="en-US">
+      <Provider>
+        <App />
+      </Provider>
+    </SpeechProvider>  
   </React.StrictMode>,
   document.getElementById('root')
 );
