@@ -15,11 +15,6 @@ const Header = () => {
                                 Budget Tracker
                             </Typography>
                         </Grid>
-                        <Grid item>
-                            <Typography variant="subtitle2">
-                                Powered by Speechly
-                            </Typography>
-                        </Grid>
                     </Grid>
                 </Toolbar>
             </Container>

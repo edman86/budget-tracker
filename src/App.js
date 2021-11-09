@@ -53,7 +53,6 @@ function App() {
                 <Grid
                     container
                     spacing={2}
-                    // alignItems="center"
                     justifyContent="center"
                     sx={{ mt: '2em' }}
                 >
